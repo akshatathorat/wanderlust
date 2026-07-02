@@ -1,0 +1,168 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+.listing-img{
+    height: 20rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+}
+
+
+.navbar-brand .fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+
+.navbar-nav .nav-link {
+    color: #222222 !important;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/* footer */
+.f-info{
+    width: 100%;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: auto;
+    border-top: 1px solid #ddd;
+}
+
+.f-info-socials {
+    margin-bottom: 0.75rem;
+}
+
+.f-info-socials i {
+    font-size: 1.5rem;      
+    margin: 0 1rem;
+}
+
+.f-info-brand {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin: 0 0.6rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400;  /* ✅ FIX */
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* show page buttons */
+
+/* show page buttons */
+.btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;   /* increase this value */
+}
+
+.btns .btn{
+    width: 90px;
+    height: 45px;
+}
+
+.btns form{
+    margin: 0;
+}
+.add-btn,
+.edit-btn,
+.delete-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    width: 90px;
+    height: 42px;
+    font-size: 1.1rem;
+}
+/* show page */
+.show-img{
+    height: 25rem !important;
+    width: 100%;
+    object-fit: cover;
+}
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+#filters{
+    display: flex;
+    align-items: center;
+    gap: 1.35rem;      
+    overflow-x: auto;
+}
+
+.filter{
+    text-align: center;
+    min-width: 10px;
+}
+
+.tax-toggle{
+    margin-left: auto;
+}
